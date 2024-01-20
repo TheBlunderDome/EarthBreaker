@@ -1,0 +1,115 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EarthBreaker",
+				"abbreviation": "EB",
+				"full": "EarthBreaker",
+				"url": "",
+				"authors": [
+					"MonkeyDM"
+				],
+				"convertedBy": [
+					"Bacon"
+				],
+				"color": "#c14e01"
+			}
+		]
+	},
+"subclass": [
+    {
+        "name": "Path of the Earthbreaker",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "shortName": "EarthBreaker",
+        "subclassFeatures": [
+            "Overwhelming Power|Barbarian|PHB|EarthBreaker|EarthBreaker|3",
+            "Gravitational Rage|Barbarian|PHB|EarthBreaker|EarthBreaker|3",
+            "Ruination|Barbarian|PHB|EarthBreaker|EarthBreaker|6",
+            "Imperious Gravity|Barbarian|PHB|EarthBreaker|EarthBreaker|6",
+            "Unyielding|Barbarian|PHB|EarthBreaker|EarthBreaker|10",
+            "World Breaker|Barbarian|PHB|EarthBreaker|EarthBreaker|14"
+        ]
+    }
+],
+"subclassFeature": [
+    {
+        "name": "Overwhelming Power",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "subclassShortName": "EarthBreaker",
+        "subclassSource": "EarthBreaker",
+        "level": 3,
+        "entries": [
+            "Starting at 3rd level, you have learned to channel destructive energy through your fists and other body parts. When you hit with an unarmed strike, you can deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. This die increases to 1d8 at 6th level, 1d10 at 10th level, and 1d12 at 14th level. When you make an unarmed strike against a creature on your turn, you can use a bonus action to make another unarmed strike against the same creature. Your sheer power puts a massive strain on most weapons, shattering them. When you hit with a melee attack with a nonmagical weapon, the weapon breaks in your hand and can’t be used to make attacks until it is repaired. In addition, the range of thrown weapons is doubled for you. If you hit with a ranged attack with a thrown weapon, you can use the damage die above in place of the weapon’s usual damage dice"
+        ]
+    },
+    {
+        "name": "Gravitational Rage",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "subclassShortName": "EarthBreaker",
+        "subclassSource": "EarthBreaker",
+        "level": 3,
+        "entries": [
+            "At 3rd level, once per turn, when you deal damage to a creature with an unarmed strike, you can choose one of the following effects. These effects use your Earthbreaker save DC. Earthbreaker save DC = 8 + your proficiency bonus + your Strength modifier", 
+            "• Burying Hands. The target must succeed on a Strength saving throw or have its speed reduced to 0 until the start of your next turn, as you partially bury it in the ground. If the target fails the saving throw by 5 or more, it is also knocked prone. If the target isn’t on the ground when it fails this save, it immediately falls instead, even if it can hover.", 
+            "• Bulldozing Punch. You push the target 10 feet away from you or upward. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Strength modifier (minimum of 1). Creatures with a Strength score equal to or greater than yours can make a Strength saving throw to resist this effect, avoiding it on a success. If you push the target upward, it can make a DC 10 Dexterity saving throw, avoiding any fall damage on a success."
+        ]
+    },
+    {
+        "name": "Ruination",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "subclassShortName": "EarthBreaker",
+        "subclassSource": "EarthBreaker",
+        "level": 6,
+        "entries": [
+            "Starting at 6th level, the strength you wield is capable of toppling the arcane rules of the world. Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity. In addition, when you hit a physical barrier created by a spell with an unarmed strike, such as the effect of a wall of force or forcecage spell, or any other wall spell (such as wall of fire, gravity wall󨖙, or prismatic wall), you can make a Strength check (DC = 10 + the spell’s level), rupturing the arcane and dispelling the spell on a success."
+        ]
+    },
+    {
+        "name": "Imperious Gravity",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "subclassShortName": "EarthBreaker",
+        "subclassSource": "EarthBreaker",
+        "level": 6,
+        "entries": [
+            "Also at 6th level, you increase your mastery over gravity. On each of your turns while raging, you can use a bonus action to create one of the following effects, using your Earthbreaker save DC. The range of these abilities, and the distance they move creatures, doubles at 14th level.",
+            "• Attractive Field. You unleash a gravitational wave. Each creature in a 15-foot cone originating from you must succeed on a Strength saving throw or be pulled up to 10 feet towards you.",
+            "• Repulsive Field. You condense a bubble of gravity around yourself. The next time a creature would hit you with a melee attack, the bubble bursts in a roaring explosion. Each creature within 10 feet of you must succeed on a Strength saving throw or be pushed up to 10 feet away from you. If this pushes the attacker beyond its reach of you, the attack misses you. If the bubble doesn’t burst by the start of your next turn, it harmlessly dissipates.",
+            "• Stomp. You stomp the ground, causing adestructive quake in a 10-foot-long, 5-foot-wide line on the ground originating from you. Each creature in the area must succeed on a Dexterity saving throw or take 1d4 bludgeoning damage and have disadvantage on its next Strength saving throw before the start of your next turn as it is thrown off balance. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
+        ]
+    },
+    {
+        "name": "Unyielding",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "subclassShortName": "EarthBreaker",
+        "subclassSource": "EarthBreaker",
+        "level": 10,
+        "entries": [
+            "Beginning at 10th level, your unarmed strikes deal double damage to structures and you can ignore difficult terrain. In addition, your crushing power seeps into all the aspects of your life. You can add your Constitution modifier to any Strength checks and Intimidation checks you make. World Break"
+        ]
+    },
+    {
+        "name": "World Breaker",
+        "source": "EarthBreaker",
+        "className": "Barbarian",
+        "classSource": "PHB",
+        "subclassShortName": "EarthBreaker",
+        "subclassSource": "EarthBreaker",
+        "level": 14,
+        "entries": [
+            "Once you reach 14th level, your blows can level the world. Once on each of your turns while you are raging, when you make a melee attack, you can fracture the world. On a hit, the target takes an extra 3d12 bludgeoning damage and is pushed up to 30 feet away from you. In addition, hit or miss, the area in a 90-foot cone in front of you breaks, as per the earthquake spell (save DC equals your Earthbreaker save DC), although the spell only lasts until the start of your next turn, doesn’t require concentration, and can create only 1d4 fissures in the area. You can use this feature a number of times equal to your Strength modifier, and you regain all expended uses when you finish a short or long rest."
+        ]
+    }
+  ]
+}
